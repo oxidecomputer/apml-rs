@@ -1,0 +1,8 @@
+[package]
+name = "apml-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hubpack = { version = "0.1.2", default-features = false }
+serde = { version = "1.0.114", default-features = false, features = ["derive"] }
